@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "262958567452",
+    "firebase_url": "https://ra2m8examen.firebaseio.com",
+    "project_id": "ra2m8examen",
+    "storage_bucket": "ra2m8examen.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:262958567452:android:3e0b644562855e29",
+        "android_client_info": {
+          "package_name": "com.example.cf17marcsoler.ra2_m8examen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "262958567452-1duemkdt3h8g8b19t4gcupsm899p5f2n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cf17marcsoler.ra2_m8examen",
+            "certificate_hash": "33380701932ab774b39b620ca057837879d84467"
+          }
+        },
+        {
+          "client_id": "262958567452-ug3p66cvmb7ceqjj0va79r94pkdug30l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDR6tK90H1NXSvWx4P7DD7x1AB_q8_koTo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "262958567452-ug3p66cvmb7ceqjj0va79r94pkdug30l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

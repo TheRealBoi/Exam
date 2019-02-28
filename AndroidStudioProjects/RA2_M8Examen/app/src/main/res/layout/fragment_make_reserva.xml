@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MakeReserva">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="vertical"
+            android:layout_weight="1.5">
+
+            <TextView
+                android:id="@+id/NuevaReservaTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NUEVA RESERVA"
+                android:textSize="40dp"
+                android:layout_marginBottom="30dp"
+                android:textAlignment="center"/>
+
+            <EditText
+                android:id="@+id/FechaReservaEditTxt"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="Fecha de reserva"
+                android:textAlignment="center"
+                />
+            <EditText
+                android:id="@+id/NComensalesEditTxt"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="Número de comensales"
+                android:textAlignment="center"
+                />
+            <EditText
+                android:id="@+id/NombreReservaEditTxt"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="Nombre"
+                android:textAlignment="center"
+                />
+            <EditText
+                android:id="@+id/NTelefonoEditTxt"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:hint="Teléfono"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            >
+
+            <TextView
+                android:id="@+id/comentTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Comentarios"
+                android:textSize="25dp"
+                android:paddingBottom="20dp"
+                android:paddingStart="20dp"
+                />
+
+            <EditText
+                android:id="@+id/ComentarioEditTxt"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:hint="Alergias, peticiones especiales..."
+                android:textAlignment="center"
+                android:layout_marginBottom="20dp"/>
+
+            <ImageButton
+                android:id="@+id/SendReserva"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_send_black_24dp"
+                android:src="@drawable/ic_send_black_24dp"
+                android:layout_gravity="end"
+                android:layout_marginEnd="20dp"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
